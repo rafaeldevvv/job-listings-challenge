@@ -20,6 +20,7 @@ export default function Main() {
 
   return (
     <main>
+      <h1 className="sr-only">Job Listings App</h1>
       {selectedCategories.length > 0 && (
         <Filter
           categories={selectedCategories}
